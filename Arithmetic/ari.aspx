@@ -6,15 +6,15 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+<body style="height: 428px; width: 693px">
     <form id="form1" runat="server">
-        <div style="height: 428px; width: 610px">
-			<asp:Label ID="Label1" runat="server" Text="Arithmetic Properties" Font-Bold="True" Font-Size="Larger" style="z-index: 1; left: 218px; top: 60px; position: absolute; height: 51px; width: 243px; margin-top: 3px"></asp:Label>
+        <div style="height: 428px; width: 610px; z-index: 1; left: 10px; top: 15px; position: absolute; margin-right: 23px;">
+			<asp:Label ID="Label1" runat="server" Text="Arithmetic Properties" Font-Bold="True" Font-Size="Larger" style="z-index: 1; left: 180px; top: 56px; position: absolute; height: 51px; width: 243px; margin-top: 3px"></asp:Label>
            
-        	<asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 314px; top: 139px; position: absolute; height: 36px"></asp:TextBox>
-			<asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; left: 313px; top: 285px; position: absolute; height: 36px"></asp:TextBox>
+        	<asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 318px; top: 140px; position: absolute; height: 36px"></asp:TextBox>
+			<asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; left: 313px; top: 285px; position: absolute; height: 36px" Enabled="False"></asp:TextBox>
 			<asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; left: 315px; top: 215px; position: absolute; height: 36px"></asp:TextBox>
-			<asp:Label ID="Label2" runat="server" style="z-index: 1; left: 192px; top: 153px; position: absolute" Text="Enter Number 1: "></asp:Label>
+			<asp:Label ID="Label2" runat="server" style="z-index: 1; left: 189px; top: 156px; position: absolute" Text="Enter Number 1: "></asp:Label>
 			<asp:Label ID="Label3" runat="server" style="z-index: 1; left: 190px; top: 220px; position: absolute" Text="Enter Number 2 :"></asp:Label>
 			<asp:Label ID="Label4" runat="server" style="z-index: 1; left: 225px; position: absolute; top: 284px" Text="OUTPUT: "></asp:Label>
 			<asp:Button ID="Button1" runat="server" style="z-index: 1; left: 496px; top: 197px; position: absolute; width: 35px; height: 32px;" Text="+" OnClick="Button1_Click" />
