@@ -14,16 +14,6 @@ namespace Arithmetic
 
         }
 
-        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-           
-        }
-
-        protected void RadioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
@@ -57,6 +47,7 @@ namespace Arithmetic
 
         protected void Button4_Click(object sender, EventArgs e)
         {
+
             
         }
 

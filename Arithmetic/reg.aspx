@@ -16,7 +16,7 @@
             <asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; left: 292px; top: 278px; position: absolute"></asp:TextBox>
             <asp:RadioButton ID="RadioButton2" runat="server" OnCheckedChanged="RadioButton2_CheckedChanged" style="z-index: 1; left: 370px; top: 418px; position: absolute; width: 64px;" Text="Female" GroupName="sex" />
             <asp:Label ID="Label2" runat="server" style="z-index: 1; left: 193px; top: 417px; position: absolute; height: 19px; width: 44px" Text="Gender:"></asp:Label>
-            <asp:Image ID="Image1" runat="server" style="z-index: 1; left: 542px; top: 88px; position: absolute; height: 111px; width: 146px" />
+            <asp:Image ID="Image1" runat="server" style="z-index: 1; left: 542px; top: 88px; position: absolute; height: 111px; width: 146px" ImageUrl="~/images/index.jpg" />
             <asp:TextBox ID="TextBox6" runat="server" style="z-index: 1; left: 539px; top: 230px; position: absolute; height: 205px; width: 302px" TextMode="MultiLine"></asp:TextBox>
             <asp:TextBox ID="TextBox4" runat="server" style="z-index: 1; left: 291px; top: 317px; position: absolute; height: 66px; width: 145px" TextMode="MultiLine"></asp:TextBox>
             <asp:Label ID="Label3" runat="server" style="z-index: 1; left: 191px; top: 197px; position: absolute" Text="Name:"></asp:Label>
