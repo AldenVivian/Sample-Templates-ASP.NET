@@ -107,6 +107,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="ari.aspx" />
+    <Content Include="calc.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -179,6 +180,13 @@
     </Compile>
     <Compile Include="ari.aspx.designer.cs">
       <DependentUpon>ari.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="calc.aspx.cs">
+      <DependentUpon>calc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="calc.aspx.designer.cs">
+      <DependentUpon>calc.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

@@ -8,11 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="height: 1016px; width: 1335px">
+        <div style="height: 1016px; width: 1335px; z-index: 1; left: 10px; top: 15px; position: absolute;">
             <asp:Label ID="Label1" runat="server" style="z-index: 1; left: 233px; top: 105px; position: absolute; height: 20px; width: 166px" Text="REGISTRATION FORM"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 292px; top: 199px; position: absolute"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" style="z-index: 1; left: 293px; top: 201px; position: absolute"></asp:TextBox>
             <asp:TextBox ID="TextBox2" runat="server" style="z-index: 1; left: 292px; top: 242px; position: absolute; margin-top: 0px"></asp:TextBox>
-            <asp:RadioButton ID="RadioButton1" runat="server" style="z-index: 1; left: 292px; top: 418px; position: absolute; width: 64px; right: 1313px;" Text="Male" GroupName="sex" OnCheckedChanged="RadioButton1_CheckedChanged" />
+            <asp:RadioButton ID="RadioButton1" runat="server" style="z-index: 1; left: 292px; top: 418px; position: absolute; width: 64px; " Text="Male" GroupName="sex" OnCheckedChanged="RadioButton1_CheckedChanged" />
             <asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; left: 292px; top: 278px; position: absolute"></asp:TextBox>
             <asp:RadioButton ID="RadioButton2" runat="server" OnCheckedChanged="RadioButton2_CheckedChanged" style="z-index: 1; left: 370px; top: 418px; position: absolute; width: 64px;" Text="Female" GroupName="sex" />
             <asp:Label ID="Label2" runat="server" style="z-index: 1; left: 193px; top: 417px; position: absolute; height: 19px; width: 44px" Text="Gender:"></asp:Label>

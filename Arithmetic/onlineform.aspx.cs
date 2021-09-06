@@ -42,7 +42,11 @@ namespace Arithmetic
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            
             TextBox1.Text = Convert.ToString(marks);
+            RadioButtonList1.Enabled = false;
+            RadioButtonList2.Enabled = false;
+            RadioButtonList3.Enabled = false;
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -51,7 +55,10 @@ namespace Arithmetic
             RadioButtonList1.SelectedIndex = -1;
             RadioButtonList2.SelectedIndex = -1;
             RadioButtonList3.SelectedIndex = -1;
-            
+            RadioButtonList1.Enabled = true;
+            RadioButtonList2.Enabled = true;
+            RadioButtonList3.Enabled = true;
+
         }
     }
 }

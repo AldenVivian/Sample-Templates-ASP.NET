@@ -55,5 +55,15 @@ namespace Arithmetic
         {
             ListBox1.Items.RemoveAt(ListBox1.Items.IndexOf(ListBox1.SelectedItem));
         }
+
+        protected void RadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
