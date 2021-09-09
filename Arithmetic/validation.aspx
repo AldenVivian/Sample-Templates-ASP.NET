@@ -36,6 +36,11 @@
             <asp:Label ID="Label10" runat="server" style="z-index: 1; left: 239px; top: 548px; position: absolute"></asp:Label>
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" style="z-index: 1; left: 403px; top: 481px; position: absolute" Text="CLEAR" />
             
+            <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox7" ControlToValidate="TextBox6" ErrorMessage="Password Mismatch!" ForeColor="#990033" style="z-index: 1; left: 669px; top: 385px; position: absolute; margin-bottom: 2px"></asp:CompareValidator>
+            <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="Age not in range" ForeColor="#990033" MaximumValue="24" MinimumValue="18" style="z-index: 1; left: 613px; top: 195px; position: absolute"></asp:RangeValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox4" ErrorMessage="Invalid Phone Number" ForeColor="#990033" style="z-index: 1; left: 624px; top: 277px; position: absolute" ValidationExpression="\d{10}"></asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBox3" EnableTheming="True" ErrorMessage="Invalid Email" ForeColor="#990033" style="z-index: 1; left: 602px; top: 242px; position: absolute" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            
         </div>
     </form>
 </body>

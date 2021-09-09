@@ -128,6 +128,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="images\index.jpg" />
+    <Content Include="login.aspx" />
     <Content Include="onlineform.aspx" />
     <Content Include="reg.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -205,6 +206,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="onlineform.aspx.cs">
       <DependentUpon>onlineform.aspx</DependentUpon>
